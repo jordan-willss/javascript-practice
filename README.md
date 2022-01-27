@@ -10,9 +10,9 @@ They need you to create a new scoring system for them to use, which you can crea
   - [Download Node.js](https://nodejs.org/en/)
   - [Download Visual Studio Code](https://code.visualstudio.com/download)
   - [Download Git](https://git-scm.com/downloads)
-- In VSCode, open the folder containing the cloned project, it's called "javascript-training"
 - In the terminal within VSCode, clone the repository using the following HTTPS option
   - `git clone https://github.com/jordan-willss/javascript-practice.git`
+- In VSCode, open the folder containing the cloned project, it's called "javascript-training"
 - In the terminal within VSCode, run the command `npm install`
 - Once finished, you'll be able to run the command `npm run test` to fully test your functions
 
