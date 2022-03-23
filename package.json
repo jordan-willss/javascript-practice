@@ -6,6 +6,7 @@
     "ts-jest": "^27.1.3"
   },
   "scripts": {
-    "test": "jest"
+    "tennis": "jest -- trouble-in-tennis-town.spec.js",
+    "hacker": "jest -- hacker-man-1337.spec.js"
   }
 }

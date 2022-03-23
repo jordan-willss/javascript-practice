@@ -30,63 +30,63 @@ test('When the score is 0 and 15, the scoreboard reads "[ 0 - 15 ]"', () => {
 });
 
 test('When the score is 15 and 15, the scoreboard reads "[ 15 - 15 ]"', () => {
-    
+    scoreboard = tennis.scorePoints(0);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ 15 - 15 ]');
 });
 
 test('When the score is 15 and 30, the scoreboard reads "[ 15 - 30 ]"', () => {
-    
+    scoreboard = tennis.scorePoints(1);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ 15 - 30 ]');
 });
 
 test('When the score is 30 and 30, the scoreboard reads "[ 30 - 30 ]"', () => {
-    
+    scoreboard = tennis.scorePoints(0);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ 30 - 30 ]');
 });
 
 test('When the score is 30 and 40, the scoreboard reads "[ 30 - 40 ]"', () => {
-    
+    scoreboard = tennis.scorePoints(1);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ 30 - 40 ]');
 });
 
 test('When the score is 40 and 40, the scoreboard reads "[ Deuce ]"', () => {
-    
+    scoreboard = tennis.scorePoints(0);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ Deuce ]');
 });
 
 test('When the first player scores, the scoreboard reads "[ Adv. P1 ]"', () => {
-    
+    scoreboard = tennis.scorePoints(0);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ Adv. P1 ]');
 });
 
 test('When the second player scores, the scoreboard once again reads "[ Deuce ]"', () => {
-    
+    scoreboard = tennis.scorePoints(1);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ Deuce ]');
 });
 
 test('When the second player scores again, the scoreboard reads "[ Adv. P2 ]"', () => {
-    
+    scoreboard = tennis.scorePoints(1);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ Adv. P2 ]');
 });
 
 test('When the second player scores again, the scoreboard reads "[ P2 Wins! ]"', () => {
-    
+    scoreboard = tennis.scorePoints(1);
         
     /** @your_code_above */
     expect(scoreboard).toEqual('[ P2 Wins! ]');
